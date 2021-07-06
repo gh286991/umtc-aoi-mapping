@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gh286991/umtc-aoi-mapping/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/gh286991/umtc-aoi-mapping/static/js/main.94be69d7.chunk.js",
+    "main.js.map": "/gh286991/umtc-aoi-mapping/static/js/main.94be69d7.chunk.js.map",
+    "runtime-main.js": "/gh286991/umtc-aoi-mapping/static/js/runtime-main.1c58e628.js",
+    "runtime-main.js.map": "/gh286991/umtc-aoi-mapping/static/js/runtime-main.1c58e628.js.map",
+    "static/js/2.762c3427.chunk.js": "/gh286991/umtc-aoi-mapping/static/js/2.762c3427.chunk.js",
+    "static/js/2.762c3427.chunk.js.map": "/gh286991/umtc-aoi-mapping/static/js/2.762c3427.chunk.js.map",
+    "static/js/3.16cd3142.chunk.js": "/gh286991/umtc-aoi-mapping/static/js/3.16cd3142.chunk.js",
+    "static/js/3.16cd3142.chunk.js.map": "/gh286991/umtc-aoi-mapping/static/js/3.16cd3142.chunk.js.map",
+    "index.html": "/gh286991/umtc-aoi-mapping/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/gh286991/umtc-aoi-mapping/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.762c3427.chunk.js.LICENSE.txt": "/gh286991/umtc-aoi-mapping/static/js/2.762c3427.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c58e628.js",
+    "static/js/2.762c3427.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.94be69d7.chunk.js"
+  ]
+}
