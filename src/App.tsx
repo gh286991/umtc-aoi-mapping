@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 const styles = {
@@ -24,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <div style={styles.container}>
+        <div>HI~~~</div>
        <input
         multiple
         /* @ts-expect-error */
