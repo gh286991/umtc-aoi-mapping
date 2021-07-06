@@ -11,11 +11,31 @@ const styles = {
 }
 function App() {
 
-
+  const getFiles = (event:any) => {
+    let files = event.target.files;
+    let listing = document.getElementById("listing");
+    for (let i = 0; i < files.length; ++i) {
+      let item = document.createElement("li");
+      item.innerHTML = files[i].webkitRelativePath;
+      listing?.appendChild(item);
+    }
+  }
+    
   return (
     <div className="App">
-      <div style={styles.container}>
-        <div>HI~~~</div>
+      選擇檔案上傳
+            <div style={styles.container}>
+       <input
+        multiple
+        /* @ts-expect-error */
+        directory="" 
+        webkitdirectory=""
+        type="file"
+        onChange={(event) => {
+          getFiles(event);
+        }}
+      />
+      <div style={styles.fileContainer} id="listing" ></div>
       </div>
     </div>
   );
